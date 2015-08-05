@@ -1,0 +1,234 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #FFC;
+	background-image: url(../images/old_map.png);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333;
+	background-attachment: fixed;
+	}
+	
+h1 h2 h3 h4 h5 h6 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	}
+
+.left{
+float:left;	
+}
+
+#wrapper{
+	padding: 5px 5px 5px 5px;
+	background-color: #FFC;
+	border: 3px;
+	border-color: #666;
+	border-radius: 8px;
+	margin: auto;
+	width: 960px;
+	box-shadow: 3px 3px 3px 3px #999;
+	}
+	
+#header{
+	background-color: #6DC2FF;
+	margin: auto;
+	width: 950px;
+	padding: 5px 5px;
+	border-bottom-color: #0094FF;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	}
+	
+.relative{
+	position: relative;		
+}
+
+.absolute{
+	position:absolute;
+}
+
+.clear{
+	clear:both;
+}
+	
+#header img.absolute{
+	top: 10px;
+	position: absolute;
+	right: 10px;
+	}
+	
+#header h1{
+	position: absolute;
+	top: 280px;
+	right: 10px;
+	color: #FFF;
+	text-transform: uppercase;
+}
+	
+#menu{
+	float: left;
+	margin-left: 25px;
+	position: relative;
+	z-index:100;
+	}
+	
+#menu ul{
+	width:735px;
+	margin:0;
+	padding:0;
+	list-style:none;	
+	}
+	
+#menu ul li{
+	position:relative;
+	float: left;
+	}
+
+#menu ul li:hover > a{
+	color:#6DC2FF;
+	background:#FFF;
+}
+	
+	
+#menu ul li a{
+	padding:20px 25px 20px 25px;
+	font-weight: bold;
+	line-height:25px;
+	display:block;
+	color: #FFF;
+	font-size: 18px;
+	}
+
+#menu ul li:hover > ul{
+	display:block;
+	}
+	
+#menu a:link, 
+#menu a:visited{
+	text-decoration: none;
+	color: #FFF;
+	}
+	
+#menu a:active{
+	text-decoration: none;
+	color: #06C;
+	}
+	
+#menu a:hover{
+	color: #6DC2FF;
+	background-color: #FFF;
+	}
+	
+#basket{
+	background-color: #30A8FF;
+	margin-left: 55px;
+}
+	
+#menu ul ul{
+	position:absolute;
+	top:100%;
+	left:0;
+	display:none;
+	}
+	
+#menu ul ul li{
+	float: none;
+	width: 200px;
+	background: #B2DFFF;
+	font-weight: bold;
+	color: #FFF;
+	font-size: 14px;
+	}
+	
+#menu ul ul li a:link,
+#menu ul ul li a:visited,
+#menu ul ul li a:active{
+	padding: 10px 15px;
+	margin: 0;
+	font-size: 14px;
+	}
+	
+#menu ul ul li a:hover{
+	color: #1066A0;
+	background-color: #FFF;	
+	}
+	
+#sidebar{
+	width: 210px;
+	padding: 10px;
+	clear: both;
+	float: left;
+	text-align: center;
+	background-color: rgba(255,204,102,0.5);
+	border-radius:10px;
+	}
+	
+.bar{
+	width:160px;
+	margin:auto;
+	padding-bottom:15px;
+	}
+	
+.barElements{
+	width:160px;
+	height:160px;
+	position:relative;
+	}
+	
+#sidebar img{
+	border: 10px solid #FFF;
+	border-radius:10px;
+}
+
+.barText{
+	width: 140px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+	padding: 5px;
+	background-color: rgba(255,204,153,0.7);
+	position: absolute;
+	left: 10px;
+	bottom: 0px;
+	text-align: center;
+	}
+	
+#main{
+	width: 706px;
+	padding: 10px;
+	float: right;
+	background-color: #FFF;
+	border: 2px solid #777;
+	border-radius: 5px;
+	}
+	
+#main .dwuserEasyRotator{
+	margin-right: auto;
+	margin-left: auto;	
+	}
+	
+#AJXMAPcAIJeMC{
+	margin-right: auto;
+	margin-left: auto;
+	}
+	
+#footer{
+	clear: both;
+	background-color: #6DC2FF;
+	font-weight: bold;
+	color: #FFF;
+	border-top-color: #0094FF;
+	border-radius: 0px 0px 5px 5px;
+	border-top-width: 3px;
+	padding: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-style: solid;
+	}
